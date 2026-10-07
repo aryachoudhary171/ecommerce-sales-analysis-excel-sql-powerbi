@@ -1,0 +1,7 @@
+# Scratch workbook builder and visual QA renders used during project creation.
+work/
+
+# Temporary workbook inspection artifacts.
+excel/*.inspect.ndjson
+excel/*preview*.png
+excel/insights.txt
