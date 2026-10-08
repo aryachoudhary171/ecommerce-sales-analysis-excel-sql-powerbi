@@ -447,6 +447,15 @@ PivotTables are optional additions; the existing formula summary tabs remain ava
 
     readme = f'''# E-Commerce Sales Analysis (Excel + SQL + Power BI)
 
+## Charts at a glance
+![Yearly sales](images/yearly_sales.png)
+![Yearly profit](images/yearly_profit.png)
+![Sub-category profit](images/category_profit.png)
+![Discount band profit](images/discount_profit.png)
+![Shipping time by ship mode](images/ship_mode_days.png)
+![Orders by region](images/region_orders.png)
+![Year-over-year sales growth](images/yoy_sales.png)
+
 ## Problem statement
 Explore four years of Superstore order-line data to identify sales and profit trends, product/category performance, shipping patterns, discount outcomes, and regional/customer opportunities.
 
@@ -483,15 +492,6 @@ Cleaning summary: **{rows_before:,} rows before**, **{duplicates:,} duplicate ro
 {chr(10).join(insights[:5])}
 
 The high-discount finding is descriptive association only; customer/order mix and product costs may also explain the observed profit.
-
-## Charts
-![Yearly sales](images/yearly_sales.png)
-![Yearly profit](images/yearly_profit.png)
-![Sub-category profit](images/category_profit.png)
-![Discount band profit](images/discount_profit.png)
-![Shipping time by ship mode](images/ship_mode_days.png)
-![Orders by region](images/region_orders.png)
-![Year-over-year sales growth](images/yoy_sales.png)
 
 ## Recommendations
 - Review discount approvals above 20%; compare incremental revenue and profit at product/order level before changing policy.
